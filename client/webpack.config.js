@@ -33,9 +33,9 @@ new InjectManifest({
  new WebpackPwaManifest({
   fingerprints: false,
   inject: true,
-  name: 'Contact Cards',
-  short_name: 'Contact',
-  description: 'Never forget your contacts!',
+  name: 'Text editor',
+  short_name: 'J.A.T.E',
+  description: 'Note!',
   background_color: '#225ca3',
   theme_color: '#225ca3',
   start_url: './',
