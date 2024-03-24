@@ -27,9 +27,9 @@ export const putDb = async (content) => {
     const db = await initdb();
     const tx = db.transaction('jate', 'readwrite');
     const store = tx.objectStore('jate');
-    const request = store.put({ value: content }); // Se omite la clave primaria 'id' para que se autoincremente
+    const request = store.put({ id:1, value: content }); // Se omite la clave primaria 'id' para que se autoincremente
     const result = await request;
-    console.log("data saved, you did it!", result.value);
+    console.log("data saved, you did it!", result?.value);
     await tx.done; 
   } catch (error) {
     console.error('Error saving content to database:', error);
@@ -43,9 +43,9 @@ export const getDb = async () => {
     const db = await initdb();
     const tx = db.transaction('jate', 'readonly');
     const store = tx.objectStore('jate');
-    const request = await store.getAll();
+    const request = await store.get(1);
     console.log('All content retrieved from database:', request);
-    return request;
+    return request?.value
   } catch (error) {
     console.error('Error retrieving content from database:', error);
     throw error;
