@@ -5,6 +5,8 @@
 
 In this text editing project, you will be able to store data in an IndexedDB database. You'll use a package called idb, which is a lightweight wrapper around the IndexedDB API.
 
+The publication of the website was used  [Render](https://render.com/).
+
 ## Table of Contents
 
 - [Installation](#installation)
