@@ -10,8 +10,6 @@ In this text editing project, you will be able to store data in an IndexedDB dat
 - [Installation](#installation)
 - [Image](#image)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
 - [Web](#web)
 - [Questions](#questions)
 
@@ -22,10 +20,6 @@ Use command git clone
 ## Image
 
 ![Text-Editor](<image/Snip - J.A.T.E and 4 more pages - Personal - Microsoft Edge.png>)
-
-
-## Contributing
-N/A
 
 
 ## Web
