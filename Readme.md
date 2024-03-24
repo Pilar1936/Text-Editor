@@ -8,25 +8,28 @@ In this text editing project, you will be able to store data in an IndexedDB dat
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Image](#image)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Web](#web)
 - [Questions](#questions)
 
 ## Installation
 Use command git clone
 
 
-## Usage
-N/A
+## Image
+
+![Text-Editor](<image/Snip - J.A.T.E and 4 more pages - Personal - Microsoft Edge.png>)
 
 
 ## Contributing
 N/A
 
 
-## Video
-To see video click 
+## Web
+To see web page click [HERE](https://text-editor-36vv.onrender.com)
+
 ## Questions
 For any questions, please contact [pilar19](https://github.com/pilar19) via GitHub or email at N/A.
